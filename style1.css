@@ -22,6 +22,14 @@ html {
     font-size: 30px;
     height: 100px;
 }
+#headbar a{
+    background-color: white;
+    z-index: 1;
+    top: 0;
+    font-family: "Raleway", sans-serif;
+    color: black;
+    font-size: 50px;
+}
 
 .name {
     border-bottom: 2px dashed black;
