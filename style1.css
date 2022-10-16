@@ -120,7 +120,6 @@ html {
     width: 100vw;
     height: 100vh;
     margin: auto;
-    filter: url(#threshold) blur(0.6px);
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -231,8 +230,8 @@ a{
   
   .template {
     margin:10;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     vertical-align: center;
     transition: width 1s;
     position: relative;
@@ -240,23 +239,23 @@ a{
   
   .template:hover {
     position: relative;
-    width: 450px;
+    width: 400px;
     transition: width 1s;
   }
   
   #cover {
     -webkit-filter: drop-shadow(3px 3px 6px #222);
     filter: drop-shadow(3px 3px 6px #222);
-    width: 300;
-    height: 300;
+    width: 250;
+    height: 250;
     z-index: 1;
     position: absolute;
     transition: left 1s;
   }
   
   #cd {
-    width: 300;
-    height: 300;
+    width: 250;
+    height: 250;
     z-index: 0;
     position: absolute;
     right: 0;
