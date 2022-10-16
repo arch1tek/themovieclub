@@ -240,6 +240,7 @@ a{
   .template:hover {
     position: relative;
     width: 400px;
+    height:400px;
     transition: width 1s, height 1s;
   }
   
@@ -260,4 +261,24 @@ a{
     position: absolute;
     right: 0;
     filter: saturate(90%);
+  }
+
+  .template a{
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    filter: saturate(90%);
+    color: white;
+    font-size: 20;
+    background-color: purple;
+  }
+
+  .template p{
+    z-index: 0;
+    position: absolute;
+    bottom: 20;
+    filter: saturate(90%);
+    font-size: 20;
+    filter: url(#threshold) blur(0.6px);
+
   }
