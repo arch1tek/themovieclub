@@ -10,7 +10,7 @@ body {
 
 html {
     scroll-behavior: smooth;
-    height:800vh;
+    height:700vh;
   }
 
 #headbar {
@@ -359,12 +359,12 @@ a{
   max-width:80px;
   width: auto;
   height: auto;
-    filter: saturate(1);
+    filter: saturate(1) sepia(50%) contrast(2);
 }
 #img2{
     display: block;
   max-width:100px;
   width: auto;
   height: auto;
-    filter: saturate(1);
+    filter: saturate(1) sepia(50%) contrast(2);
 }
