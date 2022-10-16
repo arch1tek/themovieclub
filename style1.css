@@ -229,7 +229,7 @@ a{
   }
   
   .template {
-    margin:10;
+    margin:20;
     height: 250px;
     width: 250px;
     vertical-align: center;
@@ -274,11 +274,11 @@ a{
   }
 
   .template p{
-    z-index: 0;
+    z-index: -1;
     position: absolute;
     bottom: 20;
     filter: saturate(90%);
     font-size: 20;
     filter: url(#threshold) blur(0.6px);
-
+    text-align: justify
   }
