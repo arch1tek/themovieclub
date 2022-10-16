@@ -260,6 +260,7 @@ a{
     vertical-align: center;
     transition: height 1s, width 1s;
     position: relative;
+
   }
   
   .template:hover {
