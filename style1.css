@@ -155,7 +155,7 @@ html {
 }
 
 img{
-    filter: sepia(50%);
+    filter: sepia(50%) saturate(0.2);
     width: 50vw;
 }
 
@@ -233,14 +233,14 @@ a{
     height: 250px;
     width: 250px;
     vertical-align: center;
-    transition: width 1s;
+    transition: height 1s, width 1s;
     position: relative;
   }
   
   .template:hover {
     position: relative;
     width: 400px;
-    transition: width 1s;
+    transition: width 1s, height 1s;
   }
   
   #cover {
