@@ -149,6 +149,30 @@ html {
     -ms-writing-mode: vertical-lr;
 }
 
+#slide6 {
+    /*background-color: black;*/
+    font-size: 28;
+    display:flex;
+    top: 500vh;
+    left: 50vw;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+	/* Center rgb(9, 62, 93)viewport. */
+	position: absolute;
+    width: 70vw;
+    height: 100vh;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    filter: url(#threshold) blur(0.6px);
+}
+
+#slide6 h1{
+    color: purple;
+    writing-mode:vertical-lr;
+    -ms-writing-mode: vertical-lr;
+}
+
 
 #spacer{
     width: 15vw;
@@ -282,3 +306,12 @@ a{
     filter: url(#threshold) blur(0.6px);
     text-align: justify
   }
+
+#comps{
+}
+#comphead{
+    font-size: 40;
+    margin: 0;
+    font-weight: 800;
+    display: flex;
+}
