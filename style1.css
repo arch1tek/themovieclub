@@ -265,7 +265,7 @@ a{
   .template:hover {
     position: relative;
     width: 400px;
-    height:400px;
+    height:450px;
     transition: width 1s, height 1s;
   }
   
